@@ -1,0 +1,24 @@
+cff-version: 1.1.0
+message: "Please cite the following works when using this software: https://ui.adsabs.harvard.edu/abs/2023ascl.soft02008B"
+authors:
+- family-names: Bodnia
+  given-names: Eve
+- family-names: Isenbaev
+  given-names: Vlad
+- family-names: Colburn
+  given-names: Kellan
+- family-names: Swearngin
+  given-names: Joe
+- family-names: Bouwmeester
+  given-names: Dirk
+title: "HawkingNet: Finding Hawking points in the Cosmic Microwave Background"
+version: PLACEHOLDER
+date-released: PLACEHOLDER
+identifiers:
+ - type: "ascl-id"
+   value: "2302.008"
+ - type: "doi"
+   value: PLACEHOLDER
+ - type: "bibcode"
+   value: "2023ascl.soft02008B"
+abstract: "HawkingNet searches for Hawking points in large Cosmic Microwave Background (CMB) data sets. It is based on the deep residual network ResNet18 and consists of eighteen neural layers. Written in Paython, HawkingNet inputs the CMB data, processes the data through its internal network trained for data classification, and outputs the result in a form of a classification score that indicates how confident it is that a Hawking point is contained in the image patch."
